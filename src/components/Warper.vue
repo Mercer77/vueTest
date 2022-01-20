@@ -277,7 +277,7 @@
   }
   .copy-right{
     color: white;
-    position: absolute;
+    position: fixed;
     font-size: 0.6rem;
     z-index: 99;
     left: 50vw;

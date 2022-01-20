@@ -1,5 +1,7 @@
 <template>
-    
+    <div>
+      <a target="_blank" href="http://47.110.242.174:18080/RDP-SERVER/rdppage/main/46c17c5d1b0c2d8ebca6fcf930d4de58">测试</a>
+    </div>
 </template>
 
 <script>
@@ -11,6 +13,9 @@
           }
       },
       methods:{
+          test(){
+            window.location.url='http://106.12.219.66:81/zhiji/#/generateReport/0/7';
+          },
         getTiming:function () {
           const timer = setInterval(() =>{
             console.log(timer);
@@ -32,7 +37,7 @@
       },
       mounted() {
           // this.getTiming();
-          this.getTiming2();
+          // this.getTiming2();
       }
     }
 </script>

@@ -12,6 +12,7 @@ import axios from 'axios' //引入axios获取后台数据
 import VueAxios from 'vue-axios'
 import App from './App'
 import router from './router'
+import print from 'print-js'
 Vue.use(VueAxios,axios);
 Vue.prototype.$echarts = echarts;
 Vue.use(ElementUI);

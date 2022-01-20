@@ -7,6 +7,7 @@
 
 <script>
   import './assets/js/autoChangeSize'
+  import print from 'print-js'
   //
   // !function(e) {
   //   function t() {
